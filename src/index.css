@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
-
-
-@theme {
+:root {
     --skyBlue: #4B98E6;
     --skyBg: #E1E8ED;
+}
 
+.bg-skyBlue {
+    background-color: var(--skyBlue);
+}
 
+.bg-skyBg {
+    background-color: var(--skyBg);
 }
