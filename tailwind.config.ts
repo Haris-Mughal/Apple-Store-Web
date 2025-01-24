@@ -1,15 +1,9 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {
-      colors: {
-        skyBlue: "#4B98E6", // Custom color
-        skyBg: "#E1E8ED", // Another custom color
-        primary: "#1D4ED8", // Custom primary color
-        secondary: "#F59E0B", // Custom secondary color
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

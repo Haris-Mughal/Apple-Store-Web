@@ -1,10 +1,8 @@
 @import "tailwindcss";
 
-
-
 @theme {
-    --skyBlue: #4B98E6;
-    --skyBg: #E1E8ED;
-
-
+    --color-black: #000;
+    --color-white: #fff;
+    --color-skyBlue: #4B98E6;
+    --color-skyBg: #E1E8ED;
 }
