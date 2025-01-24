@@ -1,6 +1,6 @@
 import React from "react";
-import Home from "./Home";
+import Categories from "./Categories";
 
 export default function Index() {
-  return <Home />;
+  return <Categories />;
 }
