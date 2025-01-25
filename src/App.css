@@ -6,3 +6,7 @@
     --color-skyBlue: #4B98E6;
     --color-skyBg: #E1E8ED;
 }
+
+body {
+    font-family: 'Cabrion', sans-serif;
+}

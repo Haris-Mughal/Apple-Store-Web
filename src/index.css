@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('./assets/fonts/CabrionLight.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+}
