@@ -1,5 +1,5 @@
-import Collapse from "./Collapse";
+import FAQ from "./FAQ";
 
-export default function index() {
-  return <Collapse />;
+export default function Index() {
+  return <FAQ />;
 }

@@ -6,6 +6,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         cabrion: ["Cabrion", "sans-serif"],
+        work: ["Work Sans"],
       },
     },
   },
