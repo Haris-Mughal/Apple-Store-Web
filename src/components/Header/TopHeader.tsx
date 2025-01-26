@@ -12,6 +12,7 @@ const TopHeader = () => {
   return (
     <nav className="bg-black text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between px-4 py-5">
+        {/* Mobile Menu Button */}
         <button
           className="md:hidden text-white focus:outline-none mr-auto"
           onClick={toggleMobileMenu}
@@ -19,8 +20,10 @@ const TopHeader = () => {
           {isMobileMenuOpen ? <FaTimes size={18} /> : <FaBars size={18} />}
         </button>
 
+        {/* Logo */}
         <h1 className="text-2xl">Apple Store</h1>
 
+        {/* Desktop Menu */}
         <div className="hidden md:flex flex-1 items-center justify-center space-x-6">
           <div className="relative group">
             <Link to="/products" className="hover:text-gray-200">
@@ -49,23 +52,23 @@ const TopHeader = () => {
           </Link>
         </div>
 
+        {/* Desktop Icons */}
         <div className="hidden md:flex items-center space-x-4 ml-auto">
           <FaShoppingCart
-            size={10}
-            className="w-6 h-6 cursor-pointer hover:text-gray-200"
+            size={18}
+            className="cursor-pointer hover:text-gray-200"
           />
-          <FaUser
-            size={10}
-            className="w-6 h-6 cursor-pointer hover:text-gray-200"
-          />
+          <FaUser size={18} className="cursor-pointer hover:text-gray-200" />
         </div>
 
+        {/* Mobile Icons */}
         <div className="md:hidden flex items-center space-x-4 ml-auto">
-          <FaShoppingCart size={10} className=" hover:text-gray-200" />
-          <FaUser size={10} className="cursor-pointer hover:text-gray-200" />
+          <FaShoppingCart size={18} className="hover:text-gray-200" />
+          <FaUser size={18} className="cursor-pointer hover:text-gray-200" />
         </div>
       </div>
 
+      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-black text-white h-screen fixed top-0 left-0 w-3/4 shadow-md">
           <div className="flex items-center justify-between px-4 py-2 border-b border-white">
@@ -104,10 +107,10 @@ const TopHeader = () => {
           </Link>
           <div className="flex space-x-4 px-4 py-2">
             <FaShoppingCart
-              size={10}
+              size={18}
               className="cursor-pointer hover:text-gray-300"
             />
-            <FaUser size={10} className=" hover:text-gray-300" />
+            <FaUser size={18} className="hover:text-gray-300" />
           </div>
         </div>
       )}
