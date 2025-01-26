@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Categories() {
   return (
     <main>
-      <h1 className="text-center mt-5 font-bold text-3xl motion-opacity-in-0 motion-translate-y-in-100">
+      <h1 className="text-center sm:mt-5 font-bold text-3xl motion-opacity-in-0 motion-translate-y-in-100">
         Choose a Category to continue
       </h1>
       <div className="flex flex-col sm:flex-row items-center gap-2 justify-center mt-2">

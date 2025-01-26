@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const Carousal = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "https://plus.unsplash.com/premium_photo-1681313824743-7b5a2a635938?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://i.pinimg.com/1200x/d0/99/80/d0998067a9b53e30016cf0d82b05ce8a.jpg",
     "https://plus.unsplash.com/premium_photo-1681313825538-2c28fe80fa34?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://plus.unsplash.com/premium_photo-1681313824743-7b5a2a635938?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://plus.unsplash.com/premium_photo-1681566925270-e339197dbe66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -18,7 +18,7 @@ const Carousal = () => {
   }, [images.length]);
 
   return (
-    <div className="overflow-hidden w-[90vw] h-[70vh] mx-auto">
+    <div className="overflow-hidden w-[90vw] h-[90vh] mx-auto">
       <div
         className="flex transition-transform duration-1000 ease-in-out"
         style={{

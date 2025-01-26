@@ -9,5 +9,10 @@
 }
 
 body {
-    font-family: 'Cabrion', sans-serif;
+    font-family: "DM Sans", serif;
+}
+
+h1,
+h2 {
+    font-family: "Cabrion", ;
 }
