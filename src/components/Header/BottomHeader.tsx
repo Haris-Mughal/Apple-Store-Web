@@ -15,9 +15,9 @@ const BottomHeader = () => {
     <header className="w-full bg-white shadow-sm relative">
       <div className="container mx-auto px-4 py-2 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-blue-500 text-2xl font-bold">
+        <Link to="/" className="text-blue-500 text-2xl font-bold">
           Apple<span className="text-black">Store</span>
-        </div>
+        </Link>
 
         {/* Navigation */}
         <nav className="hidden md:flex space-x-6 text-sm font-medium">
