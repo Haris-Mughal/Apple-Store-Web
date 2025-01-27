@@ -69,7 +69,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         {/* Add to Cart */}
         <a
           href="#"
-          className="mt-auto mb-5 flex items-center justify-center rounded-md bg-primary px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
+          className="mt-auto mb-5 flex items-center justify-center rounded-md bg-gray-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary focus:outline-none focus:ring-4 focus:ring-dark"
         >
           Add to cart
         </a>
