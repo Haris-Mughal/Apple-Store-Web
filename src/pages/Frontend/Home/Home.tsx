@@ -1,7 +1,7 @@
 import Carousal from "../../../components/carousal";
 import Categories from "../../../components/Categories";
 import Collapse from "../../../components/Collapse";
-import Delievery from "../../../components/Delievery";
+import Delivery from "../../../components/Delivery";
 import Features from "../../../components/Features";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
@@ -17,7 +17,7 @@ export default function Home() {
       <Categories />
       <Collapse />
       <ProductCard />
-      <Delievery />
+      <Delivery />
       <Features />
       <Footer />
     </>
