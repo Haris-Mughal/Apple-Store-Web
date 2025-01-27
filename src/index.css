@@ -1,8 +1,20 @@
 @import "tailwindcss";
 
+body {
+    font-family: "ATC" !important;
+
+}
+
 @font-face {
     font-family: 'Cabrion';
     src: url('./assets/fonts/CabrionLight.otf') format('otf');
     font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATC';
+    src: url(./assets/fonts/ATCArquette-Regular.woff);
+    font-weight: 400;
     font-style: normal;
 }

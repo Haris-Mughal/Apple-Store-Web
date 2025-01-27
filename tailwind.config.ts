@@ -5,8 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        cabrion: ["Cabrion", "sans-serif"],
-        work: ["Work Sans"],
+        ATC: ["ATC"],
       },
     },
   },
