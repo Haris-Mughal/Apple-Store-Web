@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Delievery() {
   return (
-    <div className="container mx-auto mb-15 px-11">
+    <div className="container overflow-hidden mx-auto mb-15 px-11">
       <div className="flex items-center sm:flex-row flex-col sm:mt-15 bg-gradient-to-r from-[#bbcde1] to-[#6384a7] rounded-2xl container mx-auto h-120 ">
         <motion.div
           className="flex-col sm:pl-[12vw]"
