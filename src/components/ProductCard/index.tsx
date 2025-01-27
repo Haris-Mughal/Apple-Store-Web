@@ -83,9 +83,10 @@ export default function Index() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-center mb-8">
+      <h1 className="text-4xl font-extrabold text-center ">
         Electronics Products
       </h1>
+      <p className="text-center font-bold "> Here are our some best selling </p>
 
       <motion.div
         className="grid p-2 sm:p-10 grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-4"

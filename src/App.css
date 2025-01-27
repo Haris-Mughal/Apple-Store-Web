@@ -4,8 +4,11 @@
 @theme {
     --color-black: #000;
     --color-white: #fff;
-    --color-skyBlue: #4B98E6;
-    --color-skyBg: #E1E8ED;
+    --color-primary: #17BAED;
+    --color-secondary: #DBF5FD;
+    --color-cardbg: #F1F8FA;
+    --color-butt: #45C8F1;
+
 }
 
 body {
