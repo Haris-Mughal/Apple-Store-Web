@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <div className="container mx-auto px-11">
+    <div className="container mx-auto overflow-hidden px-11">
       <motion.div
         className="sm:text-5xl container mx-auto mt-12 text-center font-extrabold"
         initial={{ opacity: 0, y: -50 }}
