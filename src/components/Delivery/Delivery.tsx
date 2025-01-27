@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export default function Delievery() {
+export default function Delivery() {
   return (
     <div className="container overflow-hidden mx-auto mb-15 px-11">
       <div className="flex items-center sm:flex-row flex-col sm:mt-15 bg-gradient-to-r from-[#bbcde1] to-[#6384a7] rounded-2xl container mx-auto h-120 ">
@@ -21,7 +21,7 @@ export default function Delievery() {
             transition={{ duration: 1, ease: "easeInOut" }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            Fast Delievery
+            Fast Delivery
           </motion.h1>
         </motion.div>
 
