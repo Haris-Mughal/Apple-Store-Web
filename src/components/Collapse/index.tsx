@@ -1,5 +1,5 @@
 import FAQ from "./FAQ";
 
-export default function Index() {
+export default function index() {
   return <FAQ />;
 }

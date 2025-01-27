@@ -1,5 +1,5 @@
 import Hero from "./Hero";
 
-export default function Index() {
+export default function index() {
   return <Hero />;
 }

@@ -1,5 +1,5 @@
 import Features from "./Features";
 
-export default function Index() {
+export default function index() {
   return <Features />;
 }

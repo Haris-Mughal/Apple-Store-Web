@@ -1,4 +1,4 @@
 import Delivery from "./Delivery";
-export default function Index() {
+export default function index() {
   return <Delivery />;
 }
