@@ -66,7 +66,7 @@ const Carousal = () => {
               >
                 <motion.p
                   className="text-3xl sm:text-5xl font-semibold text-white break-words max-w-[90%] sm:max-w-[60%]"
-                  initial={{ width: "0%" }}
+                  initial={{ width: "40%" }}
                   animate={{ width: "100%" }}
                   transition={{
                     duration: 2,
